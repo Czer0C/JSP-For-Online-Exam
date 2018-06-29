@@ -1,4 +1,4 @@
-#**Đồ án cuối kì môn phát triển ứng dụng cơ sở dữ liệu 2**
+# **Đồ án cuối kì môn phát triển ứng dụng cơ sở dữ liệu 2**
 
 *Thành viên:*
 
