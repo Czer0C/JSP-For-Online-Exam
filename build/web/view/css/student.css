@@ -1,0 +1,156 @@
+@import url("../css/font.css");
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url("../images/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainSection {
+  background: url();
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  width: 45%;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 30px 0;
+  border-right: 5px solid rgba(30, 30, 30, 0.8);
+}
+.info h2 {
+  padding-top: 30px;
+  font-weight: 300;
+}
+.info p {
+  font-size: 18px;
+}
+.info .icon {
+  font-size: 8em;
+  padding: 20px 0;
+  color: #0ab4b4;
+}
+
+.answerBox {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  background: rgba(20, 40, 40, 0.8);
+  transition: .2s;
+}
+.answerBox h2 {
+  font-weight: 300;
+}
+
+.inputFields {
+  margin: 15px 0;
+  margin-bottom: 50px;
+  font-size: 16px;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #0ab4b4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.2);
+  color: white;
+  outline: none;
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+.btnSpecial {
+  border: 1px solid #0ab4b4;
+  background: rgba(20, 20, 20, 0.6);
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.btnSpecial:hover {
+  background: rgba(20, 20, 20, 0.8);
+  
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+span {
+  color: red;
+  display: none;
+}
+
+#qid {
+  font-weight: bold;
+}
+
+a {
+  line-height: 1;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  height: 38px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #4b908f;
+}
+
+hr {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  background: #0ab4b4;
+}
+.question {
+  width: 100%; 
+  word-wrap: break-word;
+}
+
+#page {
+  float: right; 
+  color: #0ab4b4; 
+}
+
+#status {
+  margin-top: 10px; 
+  color: red; 
+  display: none;
+}
+
+#hello {
+  color: #0ab4b4;
+}
